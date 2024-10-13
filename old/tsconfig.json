@@ -1,0 +1,12 @@
+{
+    "include": ["./ts/*.ts"],
+    "compilerOptions": {
+        "outDir": "js",
+        "module": "ES2020",
+        "lib": ["DOM", "ES2020"],
+    },
+    "tsc-alias": {
+    "resolveFullPaths": true,
+    "verbose": false
+  } 
+}

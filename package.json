@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "esbuild": "0.24.0"
+  },
+  "scripts": {
+    "build": "esbuild ./src/ts/**/*.ts --watch --bundle  --outdir=public/scripts"
+  },
+  "type": "module",
+  "dependencies": {
+    "@types/jquery": "^3.5.30",
+    "express": "^4.21.0",
+    "jquery": "^3.7.1",
+    "save": "^2.9.0",
+    "save-dev": "^0.0.1-security"
+  }
+}
